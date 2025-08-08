@@ -1,16 +1,11 @@
 package main
 
 import (
-	"fmt"
-	"runtime"
-
-	"github.com/bLinDcL/godesde0/ejercicios"
-	"github.com/bLinDcL/godesde0/teclado"
-	"github.com/bLinDcL/godesde0/variables"
+	"github.com/bLinDcL/godesde0/iteraciones"
 )
 
 func main() {
-	estado, texto := variables.ConvertToText(1993)
+	/*estado, texto := variables.ConvertToText(1993)
 	fmt.Println(estado)
 	fmt.Println(texto)
 
@@ -33,5 +28,6 @@ func main() {
 	fmt.Println(num)
 	fmt.Println(output)
 
-	teclado.IngresoNumeros()
+	teclado.IngresoNumeros()*/
+	iteraciones.Iterar()
 }
