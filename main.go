@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/bLinDcL/godesde0/iteraciones"
-)
+import "github.com/bLinDcL/godesde0/ejercicios"
 
 func main() {
 	/*estado, texto := variables.ConvertToText(1993)
@@ -28,6 +26,7 @@ func main() {
 	fmt.Println(num)
 	fmt.Println(output)
 
-	teclado.IngresoNumeros()*/
-	iteraciones.Iterar()
+	teclado.IngresoNumeros()
+	iteraciones.Iterar()*/
+	ejercicios.Ejercicio2()
 }
